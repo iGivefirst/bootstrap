@@ -1535,7 +1535,7 @@ table .span24 {
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url("/igive/images/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
@@ -1544,7 +1544,7 @@ table .span24 {
   *margin-left: 0;
 }
 .icon-white {
-  background-image: url("../img/glyphicons-halflings-white.png");
+  background-image: url("/igive/images/glyphicons-halflings-white.png");
 }
 .icon-glass {
   background-position: 0      0;
@@ -3035,15 +3035,15 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #ffffff;
-  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
-  background-image: linear-gradient(top, #ffffff, #ffffff);
+  background-color: #9e1f63;
+  background-image: -moz-linear-gradient(top, #9e1f63, #9e1f63);
+  background-image: -ms-linear-gradient(top, #9e1f63, #9e1f63);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9e1f63), to(#9e1f63));
+  background-image: -webkit-linear-gradient(top, #9e1f63, #9e1f63);
+  background-image: -o-linear-gradient(top, #9e1f63, #9e1f63);
+  background-image: linear-gradient(top, #9e1f63, #9e1f63);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e1f63', endColorstr='#9e1f63', GradientType=0);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -3071,14 +3071,14 @@ input[type="submit"].btn.btn-mini {
   font-size: 20px;
   font-weight: 200;
   line-height: 1;
-  color: #9e1f63;
+  color: #ffffff;
 }
 .navbar .navbar-text {
   margin-bottom: 0;
   line-height: 40px;
 }
 .navbar .navbar-link {
-  color: #9e1f63;
+  color: #ffffff;
 }
 .navbar .navbar-link:hover {
   color: #222222;
@@ -3140,8 +3140,8 @@ input[type="submit"].btn.btn-mini {
   font-weight: normal;
   line-height: 1;
   color: #ffffff;
-  background-color: #ffffff;
-  border: 1px solid #b3b3b3;
+  background-color: #df5da3;
+  border: 1px solid #891b56;
   -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.15);
   -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.15);
   box-shadow: inset 0 1px 2px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.15);
@@ -3216,7 +3216,7 @@ input[type="submit"].btn.btn-mini {
   float: none;
   padding: 9px 10px 11px;
   line-height: 19px;
-  color: #9e1f63;
+  color: #ffffff;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -3239,15 +3239,15 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav .active > a:hover {
   color: #330033;
   text-decoration: none;
-  background-color: #ffffff;
+  background-color: #9e1f63;
 }
 .navbar .divider-vertical {
   height: 40px;
   width: 1px;
   margin: 0 9px;
   overflow: hidden;
-  background-color: #ffffff;
-  border-right: 1px solid #ffffff;
+  background-color: #9e1f63;
+  border-right: 1px solid #9e1f63;
 }
 .navbar .nav.pull-right {
   margin-left: 10px;
@@ -3259,18 +3259,18 @@ input[type="submit"].btn.btn-mini {
   padding: 7px 10px;
   margin-left: 5px;
   margin-right: 5px;
-  background-color: #ffffff;
-  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
-  background-image: linear-gradient(top, #ffffff, #ffffff);
+  background-color: #9e1f63;
+  background-image: -moz-linear-gradient(top, #9e1f63, #9e1f63);
+  background-image: -ms-linear-gradient(top, #9e1f63, #9e1f63);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9e1f63), to(#9e1f63));
+  background-image: -webkit-linear-gradient(top, #9e1f63, #9e1f63);
+  background-image: -o-linear-gradient(top, #9e1f63, #9e1f63);
+  background-image: linear-gradient(top, #9e1f63, #9e1f63);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
-  border-color: #ffffff #ffffff #d9d9d9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e1f63', endColorstr='#9e1f63', GradientType=0);
+  border-color: #9e1f63 #9e1f63 #5e123b;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #ffffff;
+  *background-color: #9e1f63;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -3283,12 +3283,12 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn-navbar.active,
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
-  background-color: #ffffff;
-  *background-color: #f2f2f2;
+  background-color: #9e1f63;
+  *background-color: #891b56;
 }
 .navbar .btn-navbar:active,
 .navbar .btn-navbar.active {
-  background-color: #e6e6e6 \9;
+  background-color: #731748 \9;
 }
 .navbar .btn-navbar .icon-bar {
   display: block;
@@ -4250,315 +4250,85 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
-#social-container {
-  background: #FAFAFA;
-  border-bottom: 1px solid #F2F2F2;
-  padding: 0 0 1px 0;
-}
-#social {
-  list-style: none;
-  float: right;
-  padding: 0;
-}
-#social li {
+a.logo {
   float: left;
-  padding: 10px 0 0 10px;
-  height: 32px;
-  margin: 0;
-  overflow: hidden;
-}
-.wrapper {
-  width: 940px;
-  margin: 0 auto;
-  padding: -1px 10px 0 10px;
-}
-h1#logo {
-  float: left;
-  margin: 34px 0 0 7px;
-  z-index: 15;
-}
-#website-nav {
-  list-style: none;
-  float: right;
-  margin: 29px 0 34px 0;
-  padding: 0;
-}
-#website-nav > li {
-  float: left;
-  margin-left: 0;
-}
-#website-nav ul * {
-  margin-top: 0;
-  padding: 0;
-  list-style: none;
-}
-#website-nav > li > a {
-  font-size: 16px;
-}
-.sf-menu > li > ul {
-  margin-left: 9px !important;
-  margin-top: -4px !important;
-  border-top: 4px solid #fff;
-}
-.sf-menu ul ul {
-  margin: -1px 0 0 -12px;
-}
-.sf-menu ul li {
-  width: 100%;
-}
-.sf-menu li:hover {
-  visibility: inherit;
-  /* fixes IE7 'sticky bug' */
-
-}
-.sf-menu li {
-  float: left;
-  position: relative;
-  margin: 9px 0 16px 0;
-  padding-left: 10px;
-}
-.sf-menu a {
   display: block;
-  position: relative;
+  padding: 4px 20px 4px;
+  margin-left: -20px;
 }
-.sf-menu li:hover ul,
-.sf-menu li.sfHover ul {
-  left: 0;
-  top: 2.5em;
-  /* match top ul list item height */
-
-  z-index: 99;
+.span-one-third {
+  width: 240px;
 }
-ul.sf-menu li:hover li ul,
-ul.sf-menu li.sfHover li ul {
-  top: -999em;
+.donation-container {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 2px solid #D3D3D3;
+  padding: 6px;
+  height: 238px;
 }
-ul.sf-menu li li:hover ul,
-ul.sf-menu li li.sfHover ul {
-  left: 211px;
-  /* match ul width */
-
-  top: 0;
-}
-ul.sf-menu li li:hover li ul,
-ul.sf-menu li li.sfHover li ul {
-  top: -999em;
-}
-ul.sf-menu li li li:hover ul,
-ul.sf-menu li li li.sfHover ul {
-  left: 211px;
-  /* match ul width */
-
-  top: 0;
-}
-#website-nav > li > a {
-  background: url('/igive/images/site/nav.png') top right no-repeat;
-  display: block;
-  line-height: 26px;
-  color: #4e4e4e;
-  margin-left: 12px;
-  font-weight: bold;
-}
-#website-nav > li > a span {
-  background: url('/igive/images/site/nav.png') no-repeat;
-  background-position: 0 -26px;
-  display: block;
-  margin-left: -12px;
-  padding: 0 17px;
-}
-#website-nav > li > a:hover,
-#website-nav > li.sfHover > a,
-#website-nav > li > a:active {
-  background-position: 100% -52px;
-}
-#website-nav > li > a:hover span,
-#website-nav > li.sfHover > a span,
-#website-nav > li > a:active span {
-  background-position: 0 -78px;
-}
-#website-nav > li.current_page_item > a,
-#website-nav > li.current_page_item > a:hover {
-  background-position: 100% -104px;
-  color: #fff;
-}
-#website-nav > li.current_page_item a span {
-  background-position: 0 -130px;
-}
-/* end-button navigation */
-.clear {
-  clear: both;
-}
-.sf-menu a {
-  display: block;
-  position: relative;
-  text-decoration: none;
-  color: #222;
-}
-/* footer */
-#scrolltop-container {
-  position: relative;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  height: 27px;
-  min-width: 960px;
-}
-#scrolltop-left {
-  width: 50%;
-  height: 27px;
-  float: left;
-  background: #fff;
-}
-#scrolltop-right {
-  float: left;
-  width: 50%;
-  height: 27px;
-  background: url('/igive/images/site/scrolltop-background.png') top left no-repeat;
-}
-.narrow #scrolltop-right {
-  width: 480px;
-}
-#scrolltop-right p {
-  color: #a6a6a6;
-  margin-top: 1px;
-  margin-left: 260px;
-  width: 200px;
+.show-grid [class*="span"] {
+  background: #EEE;
   text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 14px;
+  border: 1px solid #D3D3D3;
 }
-#scrolltop {
-  display: block;
-  background: url('/igive/images/site/scrolltop.png') top left no-repeat;
-  width: 44px;
-  height: 40px;
-  position: absolute;
-  top: -21px;
-  left: 50%;
-  margin-left: -22px !important;
-  text-indent: -300px;
-  overflow: hidden;
-}
-#scrolltop:hover {
-  background-position: 0 -40px;
-}
-#footer > a > img {
-  padding: 0px 10px 0 10px;
-  float: left;
-}
-#footer > p {
-  clear: both;
+.payment-container {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #D3D3D3;
+  padding: 4px;
   text-align: center;
-  padding: 5px 0 20px 0;
+  background: white;
 }
-#footer > p a {
-  color: #676767;
+.payment-container h3 {
+  color: darkMagenta;
+  font-weight: normal;
 }
-#footer > p a:hover {
-  text-decoration: underline;
+.modal-header h3 {
+  font-weight: normal;
 }
-#widgets-container {
-  min-width: 960px;
-  background: #2c2c2c;
-  clear: both;
-  margin-top: 40px;
+.show-grid [class*="span"] {
+  background: #EEE;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 14px;
+  border: 1px solid #D3D3D3;
 }
-.narrow .wrapper,
-#widgets-container,
-#scrolltop-right,
-#scrolltop-container {
-  background-color: #333333;
-}
-.help-block {
-  color: #989898;
-}
-fieldset fieldset {
-  padding-left: 40px;
-}
-fieldset fieldset fieldset {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  margin-right: 40px;
-}
-fieldset fieldset legend {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 18px;
-}
-hr {
-  background: #CCC;
-  border-width: 0;
-  color: #CCC;
-  height: 1px;
-}
-.last {
-  margin-bottom: 10px;
-}
-select {
-  font-size: 13px;
-}
-select,
-input[type="file"] {
-  color: gray;
-}
-.required-indicator {
-  color: red;
-}
-div.hint {
-  color: #666666;
-  text-align: right;
-  width: 51%;
-  padding-top: 20px;
-}
-span.hint {
-  font-size: 11px;
-}
-select[class="span3 error"] {
-  float: none !important;
-  color: red;
-}
-select[class="error"] {
-  float: none !important;
-  color: red;
-}
-select[class="many-to-many error"] {
-  float: none !important;
-  color: red;
-}
-input[class="error"] {
-  float: none !important;
-  color: red;
-}
-input[class="last error"] {
-  float: none !important;
-  color: red;
-}
-div[class="error"] {
-  float: right;
-  color: red;
-  padding-right: 60px;
-}
-.property-list .fieldcontain {
-  list-style: none;
-  overflow: hidden;
-  zoom: 1;
-}
-.fieldcontain {
-  margin-top: 1em;
-}
-.fieldcontain .property-label {
+.span-half {
+  padding-top: 8px;
+  min-width: 36px;
+  line-height: 24px;
+  display: inline;
   float: left;
+  margin-left: 11px;
 }
-.fieldcontain label,
-.fieldcontain .property-label {
-  color: #666;
-  text-align: right;
-  width: 10%;
+.small-text {
+  font-size: 12px;
 }
-.fieldcontain .property-value {
-  display: block;
-  margin-left: 12%;
+.btn.igive {
+  color: darkMagenta;
 }
-.property-list .fieldcontain {
-  list-style: none;
+.link {
+  color: darkMagenta;
+  margin: 10px 10px 10px 10px;
+}
+.link focus {
+  border: 1px solid darkMagenta;
+  border-image: initial;
+}
+.pad {
+  padding-bottom: 4px;
+}
+.igive-purple {
+  color: #9E1F56;
+}
+.error {
+  color: red;
 }
