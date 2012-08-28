@@ -3667,7 +3667,7 @@ input[type="submit"].btn.btn-mini {
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
-  color: #555555;
+  color: #ffffff;
   text-shadow: 0 1px 0 #ffffff;
 }
 .navbar .brand:hover {
@@ -3998,14 +3998,14 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
-  background-color: #9e1f63;
+  background-color: #NaNbbaaNaN00NaN00NaN00NaN00NaN;
   color: #ffffff;
 }
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
-  color: #ffffff;
-  background-color: #9e1f63;
+  color: #9e1f63;
+  background-color: #NaNbbaaNaN00NaN00NaN00NaN00NaN;
 }
 .navbar-inverse .navbar-link {
   color: #999999;
@@ -4020,8 +4020,8 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #9e1f63;
-  color: #ffffff;
+  background-color: #NaNbbaaNaN00NaN00NaN00NaN00NaN;
+  color: #9e1f63;
 }
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
   border-top-color: #999999;
@@ -4030,8 +4030,8 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: #ffffff;
-  border-bottom-color: #ffffff;
+  border-top-color: #9e1f63;
+  border-bottom-color: #9e1f63;
 }
 .navbar-inverse .navbar-search .search-query {
   color: #ffffff;
@@ -4059,7 +4059,7 @@ input[type="submit"].btn.btn-mini {
   padding: 5px 15px;
   color: #333333;
   text-shadow: 0 1px 0 #ffffff;
-  background-color: #ffffff;
+  background-color: #9e1f63;
   border: 0;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
@@ -5112,11 +5112,11 @@ body {
 .navbar .nav a {
   font-size: 11px;
 }
-.navbar .brand {
+.navbar .logo-text {
   font-weight: 600;
   position: relative;
   top: 2px;
-  margin-left: 10px;
+  color: #ffffff;
 }
 .navbar .search-query {
   background-color: #444;
@@ -5240,7 +5240,8 @@ body {
 */
 .main {
   padding-bottom: 2em;
-  border-bottom: 1px solid #000;
+  /*border-bottom: 1px solid #000;*/
+
 }
 /*------------------------------------------------------------------
 [5. Extra / .extra]
@@ -5275,12 +5276,14 @@ body {
 */
 .footer {
   margin-top: 0;
-  border-top: 1px solid #292929;
+  /*border-top: 1px solid #292929;*/
+
 }
 .footer-inner {
   padding: 15px 0;
   font-size: 12px;
-  background: #111;
+  /* background: #111; */
+
   color: #999;
 }
 .footer a {

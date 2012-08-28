@@ -45,7 +45,6 @@
 
 <body>
 
-<div class="container">
 <div class="navbar navbar-fixed-top navbar-inverse">
 	
 	<div class="navbar-inner">
@@ -58,12 +57,13 @@
 				<span class="icon-bar"></span>
 			</a>
 			
-			<a class="brand" href="./">
+			<div class="logo-text brand">
 				iGivefirst
-			</a>		
+			</div>		
 			
 			<div class="nav-collapse">
 				<ul class="nav pull-right">
+          <!--
 					<li class="dropdown">
 						
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -79,20 +79,18 @@
 							<li><a href="javascript:;">Help</a></li>
 						</ul>
 						
-					</li>
+					</li>-->
 			
 					<li class="dropdown">
 						
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<button href="#" class="btn btn-small dropdown-toggle" data-toggle="dropdown">
 							<i class="icon-user"></i> 
 							Chris Love
 							<b class="caret"></b>
-						</a>
+						</button>
 						
 						<ul class="dropdown-menu">
 							<li><a href="javascript:;">My Profile</a></li>
-							<li><a href="javascript:;">My Groups</a></li>
-							<li class="divider"></li>
 							<li><a href="javascript:;">Logout</a></li>
 						</ul>
 						
@@ -159,12 +157,13 @@
 					</a>    				
 				</li>
 				
+        <!--
 				<li>					
 					<a href="./guidely.html">
 						<i class="icon-facetime-video"></i>
 						<span>Guided Tour</span>
 					</a>  									
-				</li>
+				</li>-->
 				
 				<li class="dropdown">					
 					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
@@ -190,7 +189,6 @@
 	</div> <!-- /subnavbar-inner -->
 
 </div> <!-- /subnavbar -->
-</div> <!-- /container -->
     
     
 <div class="main">
@@ -262,12 +260,13 @@
 				</div> <!-- /widget -->
 				
 				
+        <!--
 				<div class="widget widget-nopad">
 							
 					<div class="widget-header">
 						<i class="icon-list-alt"></i>
 						<h3>Recent News</h3>
-					</div> <!-- /widget-header -->
+					</div> 
 					
 					<div class="widget-content">
 						
@@ -308,17 +307,18 @@
 							</li>
 						</ul>
 						
-					</div> <!-- /widget-content -->
+					</div> 
 				
-				</div> <!-- /widget -->	
+				</div> --> <!-- /widget -->	
 						
 											
+        <!--
 				<div class="widget">
 					
 					<div class="widget-header">
 						<i class="icon-file"></i>
 						<h3>Content</h3>
-					</div> <!-- /widget-header -->
+					</div>
 					
 					<div class="widget-content">
 						
@@ -329,9 +329,9 @@
 						
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>					
 						
-					</div> <!-- /widget-content -->
+					</div> 
 				
-				</div> <!-- /widget -->
+				</div>--> <!-- /widget -->
 	      		
 		    </div> <!-- /span6 -->
 	      	
@@ -350,43 +350,43 @@
 						
 						<div class="shortcuts">
 							<a href="javascript:;" class="shortcut">
-								<i class="shortcut-icon icon-list-alt"></i>
-								<span class="shortcut-label">Apps</span>
+								<i class="shortcut-icon icon-heart-empty"></i>
+								<span class="shortcut-label">Give</span>
 							</a>
 							
 							<a href="javascript:;" class="shortcut">
-								<i class="shortcut-icon icon-bookmark"></i>
-								<span class="shortcut-label">Bookmarks</span>								
+								<i class="shortcut-icon icon-search"></i>
+								<span class="shortcut-label">Search</span>								
 							</a>
 							
 							<a href="javascript:;" class="shortcut">
-								<i class="shortcut-icon icon-signal"></i>
-								<span class="shortcut-label">Reports</span>	
-							</a>
-							
-							<a href="javascript:;" class="shortcut">
-								<i class="shortcut-icon icon-comment"></i>
-								<span class="shortcut-label">Comments</span>								
+								<i class="shortcut-icon icon-question-sign"></i>
+								<span class="shortcut-label">FAQ</span>	
 							</a>
 							
 							<a href="javascript:;" class="shortcut">
 								<i class="shortcut-icon icon-user"></i>
-								<span class="shortcut-label">Users</span>
+								<span class="shortcut-label">Profile</span>								
 							</a>
 							
 							<a href="javascript:;" class="shortcut">
-								<i class="shortcut-icon icon-file"></i>
-								<span class="shortcut-label">Notes</span>	
+								<i class="shortcut-icon icon-facetime-video"></i>
+								<span class="shortcut-label">Guided Tour</span>
 							</a>
 							
 							<a href="javascript:;" class="shortcut">
-								<i class="shortcut-icon icon-picture"></i>
-								<span class="shortcut-label">Photos</span>	
+								<i class="shortcut-icon icon-inbox"></i>
+								<span class="shortcut-label">Send Feedback</span>	
 							</a>
 							
 							<a href="javascript:;" class="shortcut">
-								<i class="shortcut-icon icon-tag"></i>
-								<span class="shortcut-label">Tags</span>
+								<i class="shortcut-icon icon-list-ol"></i>
+								<span class="shortcut-label">Donation History</span>	
+							</a>
+							
+							<a href="javascript:;" class="shortcut">
+								<i class="shortcut-icon icon-time"></i>
+								<span class="shortcut-label">Reocurring Donations</span>
 							</a>				
 						</div> <!-- /shortcuts -->	
 					
@@ -437,12 +437,13 @@
 						
 						
 						
+        <!--
 				<div class="widget widget-table action-table">
 						
 					<div class="widget-header">
 						<i class="icon-th-list"></i>
 						<h3>Table</h3>
-					</div> <!-- /widget-header -->
+					</div> 
 					
 					<div class="widget-content">
 						
@@ -540,7 +541,7 @@
 									</td>
 								</tr>
 								</tbody>
-							</table>
+							</table> -->
 						
 					</div> <!-- /widget-content -->
 				
@@ -558,6 +559,7 @@
     
 
 
+<!--
 <div class="extra">
 
 	<div class="extra-inner">
@@ -577,7 +579,7 @@
     					<li><a href="javascript:;">Google+</a></li>
     				</ul>
     				
-    			</div> <!-- /span3 -->
+    			</div> 
     			
     			<div class="span3">
     				
@@ -590,7 +592,7 @@
     					<li><a href="javascript:;">Feedback</a></li>
     				</ul>
     				
-    			</div> <!-- /span3 -->
+    			</div>
     			
     			<div class="span3">
     				
@@ -603,7 +605,7 @@
     					<li><a href="javascript:;">Security</a></li>
     				</ul>
     				
-    			</div> <!-- /span3 -->
+    			</div>
     			
     			<div class="span3">
     				
@@ -616,15 +618,15 @@
     					<li><a href="javascript:;">Officia deserunt</a></li>
     				</ul>
     				
-    			</div> <!-- /span3 -->
+    			</div>
     			
-    		</div> <!-- /row -->
+    		</div>
 
-		</div> <!-- /container -->
+		</div>
 
-	</div> <!-- /extra-inner -->
+	</div> 
 
-</div> <!-- /extra -->
+</div> --> <!-- /extra -->
 
 
     
