@@ -30,7 +30,7 @@
 @purple:                #7a43b6;
 @maroon:                #9E1F63;
 @maroonDark:            #330033;
-
+@maroonActive:			#8a1b4b;
 
 
 // Scaffolding
@@ -71,12 +71,12 @@
 
 // Buttons
 // -------------------------
-@btnBackground:                     @white;
-@btnBackgroundHighlight:            darken(@white, 10%);
+@btnBackground:                     #f5f5f5;
+@btnBackgroundHighlight:            #f5f5f5; //darken(@white, 10%);
 @btnBorder:                         #bbb;
 
-@btnPrimaryBackground:              @maroon;
-@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+@btnPrimaryBackground:              lighten(@maroon, 5%);
+@btnPrimaryBackgroundHighlight:     @maroon; //spin(@btnPrimaryBackground, 20%);
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
@@ -160,8 +160,8 @@
 @navbarCollapseWidth:             979px;
 
 @navbarHeight:                    38px;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
-@navbarBackgroundHighlight:       #ffffff;
+@navbarBackground:                #f1f1f1; //darken(@navbarBackgroundHighlight, 5%);
+@navbarBackgroundHighlight:       #f1f1f1;
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
 @navbarText:                      @maroon;
